@@ -1,6 +1,6 @@
 package com.fabiokusaba.desafiomagalu.infrastructure.enums;
 
-public enum StatusNoficacaoEnum {
+public enum StatusNotificacaoEnum {
     AGENDADO,
     ENVIADO,
     CANCELADO
