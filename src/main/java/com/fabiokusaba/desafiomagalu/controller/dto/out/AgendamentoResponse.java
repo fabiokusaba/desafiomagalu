@@ -1,6 +1,6 @@
 package com.fabiokusaba.desafiomagalu.controller.dto.out;
 
-import com.fabiokusaba.desafiomagalu.infrastructure.enums.StatusNoficacaoEnum;
+import com.fabiokusaba.desafiomagalu.infrastructure.enums.StatusNotificacaoEnum;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.time.LocalDateTime;
@@ -12,5 +12,5 @@ public record AgendamentoResponse(
         String mensagem,
         @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
         LocalDateTime dataHoraEnvio,
-        StatusNoficacaoEnum statusNotificacao) {
+        StatusNotificacaoEnum statusNotificacao) {
 }
